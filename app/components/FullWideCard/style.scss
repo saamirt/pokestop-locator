@@ -1,0 +1,20 @@
+@import './../../styles/styles.scss';
+
+@media (max-width: 1050px) {
+  .card {
+    flex-flow: column;
+
+    img {
+      margin: 0 auto 1em;
+    }
+    .card-content {
+      margin: 0 auto 1em;
+    }
+    .button-container {
+      margin: auto;
+    }
+    .button {
+      white-space: normal;
+    }
+  }
+}

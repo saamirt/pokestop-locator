@@ -1,0 +1,17 @@
+@import './../../styles/styles.scss';
+
+.app-wrapper {
+  // max-width: calc(768px + 16px * 2);
+  // margin: 0 auto;
+  // min-height: 100%;
+  // padding: 0 16px;
+  // display: flex;
+  // flex-direction: column;
+}
+
+.page {
+  cursor: default;
+  margin: 24px auto 0!important;
+  width: $app-width;
+  max-width: $max-app-width;
+}

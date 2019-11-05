@@ -1,0 +1,28 @@
+@import './../../styles/styles.scss';
+
+.header {
+  width: 100%;
+  font-family: 'Montserrat', 'Times New Roman', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header--bordered {
+  border-bottom: 20px solid #353535;
+}
+
+.header--shadow {
+  -webkit-box-shadow: 0 7px 10px -6px #00000014;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 7px 10px -6px #00000014;
+}
+
+.header__title {
+  text-align: center;
+  margin: 0.5em 0px 0.2em;
+  font-weight: 900;
+  color: #f75b5c;
+  font-size: 2em;
+}
