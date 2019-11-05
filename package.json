@@ -1,6 +1,7 @@
 {
   "name": "pokestop-locator",
   "version": "1.0.0",
+  "homepage": "https://saamirt.github.io/pokestop-locator/",
   "description": "Pokestop locator app",
   "repository": {
     "type": "git",
@@ -23,7 +24,9 @@
     "pretest": "npm run test:clean && npm run lint",
     "test": "cross-env NODE_ENV=test jest --coverage",
     "test:clean": "rimraf ./coverage",
-    "test:watch": "cross-env NODE_ENV=test jest --watchAll"
+    "test:watch": "cross-env NODE_ENV=test jest --watchAll",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
@@ -34,6 +37,7 @@
     "cross-env": "5.2.0",
     "express": "4.17.1",
     "fontfaceobserver": "2.1.0",
+    "gh-pages": "^2.1.1",
     "google-map-react": "^1.1.5",
     "google-maps-react": "^2.0.2",
     "history": "4.9.0",
